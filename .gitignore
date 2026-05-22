@@ -1,0 +1,17 @@
+# Mac OS
+.DS_Store
+
+# Python Environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+neuro_bci/
+
+# PyCharm Settings
+.idea/
+
+# Large Datasets & Model Weights
+bci_data/*.npz
+models/
