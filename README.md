@@ -18,6 +18,9 @@ This project was built to demonstrate full-stack BCI engineering: from simulatin
 * **Architecture:** A PyTorch Long Short-Term Memory (LSTM) network processes the temporal sequence of spikes, followed by a linear projection head to output X and Y velocities.
 * **Performance:** The LSTM achieves a **Pearson Correlation (R) of >0.98** on unseen test data for both X and Y dimensions.
 
+<img width="1200" height="600" alt="decoding_results" src="https://github.com/user-attachments/assets/21d21db7-f5e3-435d-a3f6-52404ffba9dc" />
+Figure 1. High-Fidelity Motor Decoding: The PyTorch LSTM accurately predicts intended X and Y cursor velocities from 96-channel neural spike data. The model achieves an R-value > 0.98, demonstrating the ability to handle the high variance of continuous human movement.
+
 ---
 
 ## 🛠️ Tech Stack
