@@ -1,5 +1,23 @@
 # NeuroTelepathy: Real-Time BCI Motor Decoding Pipeline
 
+**Key Result**
+
+The LSTM decoder predicts continuous X and Y cursor velocities from
+simulated 96-channel motor-cortex spike trains, achieving Pearson
+correlations above 0.98 on held-out simulated data.
+
+> Note: This is a research and portfolio demonstration built with
+> synthetic neural data. It is not a clinical BCI system.
+
+**What This Project Demonstrates**
+
+- End-to-end machine-learning pipeline development
+- Computational modelling of neural activity
+- Multichannel time-series preprocessing and windowing
+- LSTM-based continuous regression in PyTorch
+- Model evaluation using held-out data
+- Scientific visualisation and reproducible experimentation
+
 **NeuroTelepathy** is a computational neuroscience and machine learning pipeline that simulates motor cortex spike trains and trains a recurrent neural network to decode those spikes into continuous 2D kinematic trajectories (cursor control).
 
 This project was built to demonstrate full-stack BCI engineering: from simulating biological encoding (Georgopoulos Cosine Tuning) to deploying a time-series Neural Decoder (LSTM) in PyTorch.
